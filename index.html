@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foldable Birthday Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="envelope">
+    <div class="envelope-flap"></div>
+    <div class="card-container">
+      <div class="page front-page" id="frontPage">
+        <h1>Open the Greeting Card</h1>
+        <button id="openCardButton">Open</button>
+      </div>
+      <div class="page inner-page" id="innerPage">
+        <h1>Happy Birthday, Nanaaa!!</h1>
+        <p>Wishing you a day filled with love and happiness. You are the light of my life and I cherish every moment with you. Can't wait to celebrate many more birthdays together!</p>
+        <button id="revealSurpriseButton">For a Surprise</button>
+      </div>
+      <div class="page surprise-page" id="surprisePage">
+        <div class="cake">
+          <div class="candles">
+            <div class="candle" id="candle1"><div class="flame"></div></div>
+            <div class="candle" id="candle2"><div class="flame"></div></div>
+            <div class="candle" id="candle3"><div class="flame"></div></div>
+            <div class="candle" id="candle4"><div class="flame"></div></div>
+            <div class="candle" id="candle5"><div class="flame"></div></div>
+          </div>
+          <div class="tier top-tier"></div>
+          <div class="tier middle-tier"></div>
+          <div class="tier bottom-tier"></div>
+        </div>
+        <p>Blow on the microphone to blow out the candles!</p>
+      </div>
+    </div>
+  </div>
+  <audio id="birthdaySong" src="birthday_song.mp3" preload="auto"></audio>
+  <audio id="kissSound" src="kiss_sound.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
