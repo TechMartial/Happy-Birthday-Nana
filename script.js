@@ -14,7 +14,7 @@ function blowCandles() {
   });
   const surprisePage = document.querySelector('.surprise-page');
   surprisePage.style.backgroundColor = '#ff4081';
-  surprisePage.innerHTML += '<p>🎉🎉 Happy Birthday, Yashika! 🎉🎉</p>';
+  surprisePage.innerHTML += '<p>😘😘 Happy Birthday, Nannaaa! 😘🎉😘/p>';
   const blastEffect = document.createElement('div');
   blastEffect.classList.add('blast-effect');
   surprisePage.appendChild(blastEffect);
